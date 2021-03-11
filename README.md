@@ -17,12 +17,17 @@ Repositório com o código das aulas da disciplina de Sistemas Distribuidos
 Estrutura básica do projeto
 
  Source/ ```src``` ==>
-|_> MAIN/ Onde ficarão os códigos desenvolvidos da aplicação
-|__ > Java/ ```MercadoUnifavipApplication``` possui uma chamada de método para inicializar o container que possui a aplicação
+|_ MAIN/ Onde ficarão os códigos desenvolvidos da aplicação.
+
+||__ > Java/ ```MercadoUnifavipApplication``` possui uma chamada de método para inicializar o container que possui a aplicação
 A porta padrão de um projeto Java estará na porta 8080
 
-|__ > Resources/ Configurações dos serviços e aplicação
+||__ > Resources/ Configurações dos serviços e aplicação
 
 |_ TESTE/ Diretório para desenvolvimento de testes, tanto unitários como testes de integração
 
 -------
+
+
+Para que a aplicação funcione, é necessário preencher e configurar a url da base de dados, o nome de usuário, senha e dependendo do SGBD é necessário o nome.
+Essa configuração é feita no arquivo application.properties
