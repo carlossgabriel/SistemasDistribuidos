@@ -31,3 +31,11 @@ A porta padrão de um projeto Java estará na porta 8080
 
 Para que a aplicação funcione, é necessário preencher e configurar a url da base de dados, o nome de usuário, senha e dependendo do SGBD é necessário o nome.
 Essa configuração é feita no arquivo application.properties
+
+-------
+
+
+A classe de Products recebe do Lombock as tags de
+```@Data``` = mapeia métodos de get e set
+```@Entity``` = define como uma entidade para o banco de dados
+```@Table(name = "products")``` = nomeia a tabela na criação do banco de dados
