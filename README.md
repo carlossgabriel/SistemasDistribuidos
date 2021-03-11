@@ -13,3 +13,15 @@ Repositório com o código das aulas da disciplina de Sistemas Distribuidos
  - [ ] [Insomnia](https://insomnia.rest/download/)
  - [ ] [Postman](https://www.postman.com/downloads/)
 -------
+
+Estrutura básica do projeto
+Source>
+|_> MAIN/ Onde ficarão os códigos desenvolvidos da aplicação
+|__ > Java/ MercadoUnifavipApplication possui uma chamada de método para inicializar o container que possui a aplicação
+A porta padrão de um projeto Java estará na porta 8080
+
+|__ > Resources/ Configurações dos serviços e aplicação
+
+|_ TESTE/ Diretório para desenvolvimento de testes, tanto unitários como testes de integração
+
+-------
