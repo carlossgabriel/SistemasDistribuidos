@@ -15,9 +15,10 @@ Repositório com o código das aulas da disciplina de Sistemas Distribuidos
 -------
 
 Estrutura básica do projeto
-Source>
+
+ Source/ ```src``` ==>
 |_> MAIN/ Onde ficarão os códigos desenvolvidos da aplicação
-|__ > Java/ MercadoUnifavipApplication possui uma chamada de método para inicializar o container que possui a aplicação
+|__ > Java/ ```MercadoUnifavipApplication``` possui uma chamada de método para inicializar o container que possui a aplicação
 A porta padrão de um projeto Java estará na porta 8080
 
 |__ > Resources/ Configurações dos serviços e aplicação
