@@ -35,7 +35,10 @@ Essa configuração é feita no arquivo application.properties
 -------
 
 
-A classe de Products recebe do Lombock as tags de
+A classe de Products recebe do Lombock as tags de:
+
 ```@Data``` = mapeia métodos de get e set
+
 ```@Entity``` = define como uma entidade para o banco de dados
+
 ```@Table(name = "products")``` = nomeia a tabela na criação do banco de dados
